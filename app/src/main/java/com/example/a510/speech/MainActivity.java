@@ -13,6 +13,7 @@ import java.util.ArrayList;
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity implements TextToSpeech.OnInitListener {
+    int a;
     protected Button btSpeech;
     protected TextView txSpeech;
     private static final int SPEECH_CODE = 1234;//private=변수 접근 불가능(public=외부 접근 가능), static=메모리를 한번만 할당, final=상수
